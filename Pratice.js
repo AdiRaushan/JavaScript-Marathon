@@ -16,6 +16,8 @@ const GetSumOfZero = (arr) => {
 const result = GetSumOfZero([-5, -4, 6, -5, 2, 1, 4, -9, -3, -2]);
 console.log(result);
 // Improvised version--------!
+const GetSumOfZero1 = (arr) => {};
+const result1 = GetSumOfZero([-5, -4, 6, -5, 2, 1, 4, -9, -3, -2]);
 
 // quetsion 2
 // ---------------------------------------------------------------------
