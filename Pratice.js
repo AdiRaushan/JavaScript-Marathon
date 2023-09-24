@@ -1,22 +1,18 @@
-// for 100 days i'll be doing 5 question every day to improve js pratice
+// big O notation
 
-// Question 1 : checking the sum of zero
-// [-5,-4,-6,-9,2,1,4,-9,-3,-2] ----> input
-// [-4, 4]; --> output
-const GetSumOfZero = (arr) => {
-  for (let number of arr) {
-    // console.log(number);
-    for (let j = 1; j < arr.length; j++) {
-      if (number + arr[j] === 0) {
-        return [number, arr[j]];
-      }
-    }
-  }
+const addUpto = (n) => {
+  return (n * (n + 1)) / 2;
 };
-const result = GetSumOfZero([-5, -4, 6, -5, 2, 1, 4, -9, -3, -2]);
-console.log(result);
 
-// Improvised version--------!
-
-// quetsion 2
-// ---------------------------------------------------------------------
+// const addIn = (n) => {
+//   let total = 0;
+//   for (let i = 1; i <= n; i++) {
+//     total += i;
+//   }
+//   return total;
+// };
+let time1 = performance.now();
+// console.log(addIn(600000000));
+console.log(addUpto(6));
+let time2 = performance.now();
+console.log(`time for its run ${(time1 - time2) / 1000} seconds`);
