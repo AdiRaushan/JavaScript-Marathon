@@ -1,18 +1,23 @@
-// big O notation
+// how to create an array
 
-const addUpto = (n) => {
-  return (n * (n + 1)) / 2;
-};
+let myArry = [1, 2, 3, 4, 5, 6, 7, 2];
 
-// const addIn = (n) => {
-//   let total = 0;
-//   for (let i = 1; i <= n; i++) {
-//     total += i;
-//   }
-//   return total;
-// };
-let time1 = performance.now();
-// console.log(addIn(600000000));
-console.log(addUpto(6));
-let time2 = performance.now();
-console.log(`time for its run ${(time1 - time2) / 1000} seconds`);
+// hpw to get the lenght of an Array
+
+// let lenght = myArry.length;
+// console.log(lenght);
+
+// Accessing Array Elements: How do you access the first and last elements of an array?
+
+// console.log(myArry[0]);
+
+// let lastIndex = myArry.length - 1;
+// console.log(myArry[lastIndex]);
+
+// Adding Elements: What method do you use to add an element to the end of an array?
+
+let NewEle = [2, 32, 32, 3, 23, 2, 32, 3];
+
+myArry.push(...NewEle);
+
+console.log(myArry);
