@@ -1,3 +1,6 @@
 // remove duplicates
 
-const removeDup = () => {};
+const removeDup = () => {
+  console.log(hello);
+  DOMRect;
+};
